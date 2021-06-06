@@ -11,6 +11,3 @@ http://localhost:5601/app/home#/
 
 https://drive.google.com/drive/folders/1a7rnMYiYHFd3MZAx5uyRzmQD_OKF8ffG?usp=sharing
 
-https://github.com/LeThai98/ChatBot-_EatClean.git
-
-abc
