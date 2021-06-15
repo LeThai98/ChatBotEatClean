@@ -8,3 +8,13 @@ C:\Users\HongThaiPC\Desktop\Practice\Bot\EchoBot2\EchoBot2ML.Model\obj\Debug\net
 C:\Users\HongThaiPC\Desktop\Practice\Bot\EchoBot2\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.csproj.CoreCompileInputs.cache
 C:\Users\HongThaiPC\Desktop\Practice\Bot\EchoBot2\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.dll
 C:\Users\HongThaiPC\Desktop\Practice\Bot\EchoBot2\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.pdb
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\bin\Debug\netstandard2.0\EchoBot2ML.Model.deps.json
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\bin\Debug\netstandard2.0\EchoBot2ML.Model.dll
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\bin\Debug\netstandard2.0\EchoBot2ML.Model.pdb
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.csprojAssemblyReference.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.AssemblyInfoInputs.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.AssemblyInfo.cs
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.csproj.CoreCompileInputs.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.dll
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\EchoBot2ML.Model\obj\Debug\netstandard2.0\EchoBot2ML.Model.pdb

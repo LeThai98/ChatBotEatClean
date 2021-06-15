@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {}
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
+        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
         "projectName": "EchoBot2ML.Model",
-        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
+        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
         "packagesPath": "C:\\Users\\HongThaiPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\obj\\",
+        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HongThaiPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -37,18 +37,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.ML": {
               "target": "Package",
               "version": "[1.5.0-preview2, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -61,6 +55,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }

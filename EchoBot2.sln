@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoBot2ML.Model", "EchoBot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoBot2ML.ConsoleApp", "EchoBot2ML.ConsoleApp\EchoBot2ML.ConsoleApp.csproj", "{B04E1F57-3687-4399-9861-4739461EC3BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotDB", "BotDB\BotDB.csproj", "{66355BC4-95AB-4DF8-A4FF-91797F417F8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B04E1F57-3687-4399-9861-4739461EC3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04E1F57-3687-4399-9861-4739461EC3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04E1F57-3687-4399-9861-4739461EC3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66355BC4-95AB-4DF8-A4FF-91797F417F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66355BC4-95AB-4DF8-A4FF-91797F417F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66355BC4-95AB-4DF8-A4FF-91797F417F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66355BC4-95AB-4DF8-A4FF-91797F417F8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

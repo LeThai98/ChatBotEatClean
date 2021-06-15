@@ -1,0 +1,13 @@
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\BotDB.deps.json
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\BotDB.runtimeconfig.json
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\BotDB.runtimeconfig.dev.json
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\BotDB.dll
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\BotDB.pdb
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.csprojAssemblyReference.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.AssemblyInfoInputs.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.AssemblyInfo.cs
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.csproj.CoreCompileInputs.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.dll
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.pdb
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\obj\Debug\netcoreapp3.1\BotDB.genruntimeconfig.cache
+C:\Users\HongThaiPC\Desktop\Practice\Bot\BotEatClean\BotDB\bin\Debug\netcoreapp3.1\dbappsettings.json

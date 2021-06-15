@@ -1527,7 +1527,7 @@
       },
       "EchoBot2ML.Model/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.ML": "1.5.0-preview2"
         },
@@ -5527,11 +5527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
       "projectName": "EchoBot2ML.ConsoleApp",
-      "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\HongThaiPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HongThaiPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5548,8 +5548,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
-              "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj"
+            "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
+              "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj"
             }
           }
         }

@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2\\EchoBot2.csproj": {}
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2\\EchoBot2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\BotDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
-        "projectName": "EchoBot2ML.Model",
-        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
+        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\BotDB.csproj",
+        "projectName": "BotDB",
+        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\BotDB.csproj",
         "packagesPath": "C:\\Users\\HongThaiPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\obj\\",
+        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HongThaiPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,18 +37,26 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.ML": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[1.5.0-preview2, )"
+              "version": "[5.0.7, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -61,18 +69,83 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2\\EchoBot2.csproj": {
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2\\EchoBot2.csproj",
-        "projectName": "EchoBot2",
-        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2\\EchoBot2.csproj",
+        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
+        "projectName": "EchoBot2ML.Model",
+        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj",
         "packagesPath": "C:\\Users\\HongThaiPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2\\obj\\",
+        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HongThaiPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2\\EchoBot2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2\\EchoBot2.csproj",
+        "projectName": "EchoBot2",
+        "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2\\EchoBot2.csproj",
+        "packagesPath": "C:\\Users\\HongThaiPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HongThaiPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +162,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
-                "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj"
+              "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\BotDB.csproj": {
+                "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\BotDB\\BotDB.csproj"
+              },
+              "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj": {
+                "projectPath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.Model\\EchoBot2ML.Model.csproj"
               }
             }
           }
@@ -116,6 +192,30 @@
             "Microsoft.Bot.Builder.Integration.AspNet.Core": {
               "target": "Package",
               "version": "[4.13.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.Recognizers.Text": {
               "target": "Package",

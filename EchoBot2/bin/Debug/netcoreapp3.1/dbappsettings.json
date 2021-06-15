@@ -1,0 +1,11 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "Vegafood": "Data Source =DESKTOP-N30SPMS;Initial Catalog=Vegafood; Integrated Security=True"
+  }
+}

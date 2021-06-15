@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "65C+BvYgRGGwhpMNJcgBUv5yfimUlmvqxKNQHd/6YbndMhpLE/81DrT9AuA+b8Rv6Nntup4c90dM6c5hdhTBBg==",
+  "dgSpecHash": "0PHtBw+61ju7ZYzdApvigWFbi8mmNXr8NVdcVHu8WXKRZ3Ta7G+CzLELvXCj3y31gFMhbWJ+MULO175BqAbqGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\EchoBot2\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\HongThaiPC\\Desktop\\Practice\\Bot\\BotEatClean\\EchoBot2ML.ConsoleApp\\EchoBot2ML.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HongThaiPC\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\HongThaiPC\\.nuget\\packages\\microsoft.ml\\1.5.0-preview2\\microsoft.ml.1.5.0-preview2.nupkg.sha512",
