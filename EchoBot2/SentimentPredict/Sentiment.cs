@@ -15,5 +15,7 @@ namespace EchoBot2.SentimentPredict
         public static string ServicePredict { get; set; }
         public static string ServiceComment { get; set; }
         public static string UserName { get; set; }
+        public static bool Check { get; set; } = true;
+        public static bool End { get; set; } = true;
     }
 }

@@ -108,15 +108,11 @@ namespace EchoBot2.PromptBot
                     }
                     break;
                 case ConversationFlow.Question.Choose:
-                    //&& flow.Calculation == ConversationFlow.BMI.Weight
                     if (flow.UserChoose == ConversationFlow.Choose.Consulting)
                     {
                         if(flow.Calculation == ConversationFlow.BMI.None)
                         {
                             await turnContext.SendActivityAsync($"Hey {profile.Name}, How many kilos do you weigh?", null, null, cancellationToken);
-                           
-
-                            
                             flow.Calculation = ConversationFlow.BMI.Weight;
                           
                         }    
@@ -201,32 +197,48 @@ namespace EchoBot2.PromptBot
                         }
                         else if(flow.UserEmotion == ConversationFlow.Emotion.End)
                         {
-                            var predict = new PredictSentiment(input);
-                            string result = predict.Predict();
-                            Sentiment.FoodPredict = result;
-                            Sentiment.FoodComment = input;
-                            await turnContext.SendActivityAsync($"Your sentiment about our food is: {result}");
-                            await turnContext.SendActivityAsync($"Thanks for your respond about Vegafood !!!.");
-                            CustomerSentiment cusen = new CustomerSentiment();
-                            cusen.UserName = Sentiment.UserName;
-                            cusen.Time = Sentiment.Time;
-                            cusen.VegaPredict = Sentiment.VegaPredict;
-                            cusen.VegaComment = Sentiment.VegaComment;
-                            cusen.FoodComment = Sentiment.FoodComment;
-                            cusen.FoodPredict = Sentiment.FoodPredict;
-                            cusen.ServiceComment = Sentiment.ServiceComment;
-                            cusen.ServicePredict = Sentiment.ServicePredict;
-                            TakeSentiment(cusen);
-                            if (flow.Calculation == ConversationFlow.BMI.Height)
+                            if (Sentiment.End)
                             {
-                                await turnContext.SendActivityAsync($"Thanks for completing the support for Vegafood.We wil support you as soon as possible. ");
-                               
-                            }
+                                var predict = new PredictSentiment(input);
+                                string result = predict.Predict();
+                                Sentiment.FoodPredict = result;
+                                Sentiment.FoodComment = input;
+                                await turnContext.SendActivityAsync($"Your sentiment about our food is: {result}");
+                                await turnContext.SendActivityAsync($"Thanks for your respond about Vegafood !!!.");
+                                if (Sentiment.Check)
+                                {
+                                    CustomerSentiment cusen = new CustomerSentiment();
+                                    cusen.UserName = Sentiment.UserName;
+                                    cusen.Time = Sentiment.Time;
+                                    cusen.VegaPredict = Sentiment.VegaPredict;
+                                    cusen.VegaComment = Sentiment.VegaComment;
+                                    cusen.FoodComment = Sentiment.FoodComment;
+                                    cusen.FoodPredict = Sentiment.FoodPredict;
+                                    cusen.ServiceComment = Sentiment.ServiceComment;
+                                    cusen.ServicePredict = Sentiment.ServicePredict;
+                                    TakeSentiment(cusen);
+                                    Sentiment.Check = false;
+
+                                }
+
+                                // nếu đã thực hiện tư vấn dinh dưỡng rồi
+                                if (flow.Calculation == ConversationFlow.BMI.Height)
+                                {
+                                    await turnContext.SendActivityAsync($"Thanks for completing the support         for Vegafood.We wil support you as soon as possible. ");
+
+                                }
+                                else
+                                {
+                                    flow.UserChoose = ConversationFlow.Choose.Consulting;
+
+                                }
+                                Sentiment.End = false;
+                            }   
                             else
                             {
-                                flow.UserChoose = ConversationFlow.Choose.Consulting;
-
-                            }    
+                                await turnContext.SendActivityAsync($"This is Vegafood, We are very happy to receive your feedback.");
+                            }
+                            
                         }
                         else
                              await turnContext.SendActivityAsync($"Thank you very much.");
@@ -234,8 +246,6 @@ namespace EchoBot2.PromptBot
                     }    
                     break;
                      
-
-
             }
         }
 
